@@ -1,3 +1,4 @@
 sudo ubuntu-drivers autoinstall
 
-sudo apt install backport-iwlwifi-dkms
+# Don't use this as it introduces lags
+#sudo apt install backport-iwlwifi-dkms
