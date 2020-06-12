@@ -1,11 +1,6 @@
 # Git
 sudo apt install git
 
-# KVM
-# First make sure virtulization is supported and turned on
-sudo apt-get install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils
-sudo apt-get install virt-manager
-
 # Lutris
 sudo add-apt-repository ppa:lutris-team/lutris
 sudo apt-get update
