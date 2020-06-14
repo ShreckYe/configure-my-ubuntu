@@ -12,6 +12,9 @@ sudo apt install default-jdk
 # SunPinyin
 sudo apt-get install ibus-sunpinyin
 
+# Vim
+sudo apt install vim
+
 # WineHQ
 sudo dpkg --add-architecture i386
 sudo add-apt-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ focal main'
