@@ -1,21 +1,21 @@
 # Git
-sudo apt install git
+sudo apt install -y git
 
 # Lutris
-sudo add-apt-repository ppa:lutris-team/lutris
+sudo add-apt-repository -y ppa:lutris-team/lutris
 sudo apt-get update
-sudo apt-get install lutris
+sudo apt-get install -y lutris
 
 # OpenJDK
-sudo apt install default-jdk
+sudo apt install -y default-jdk
 
 # SunPinyin
-sudo apt-get install ibus-sunpinyin
+sudo apt-get install -y ibus-sunpinyin
 
 # Vim
-sudo apt install vim
+sudo apt install -y vim
 
 # WineHQ
 sudo dpkg --add-architecture i386
-sudo add-apt-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ focal main'
-sudo apt install --install-recommends winehq-stable
+sudo add-apt-repository -y 'deb https://dl.winehq.org/wine-builds/ubuntu/ focal main'
+sudo apt install -y --install-recommends winehq-stable
