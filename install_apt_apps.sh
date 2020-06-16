@@ -9,6 +9,9 @@ sudo apt-get install -y lutris
 # OpenJDK
 sudo apt install -y default-jdk
 
+# Scala
+sudo apt install -y scala
+
 # SunPinyin
 sudo apt-get install -y ibus-sunpinyin
 
