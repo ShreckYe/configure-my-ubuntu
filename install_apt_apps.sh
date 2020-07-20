@@ -15,6 +15,9 @@ sudo apt install -y scala
 # SunPinyin
 sudo apt-get install -y ibus-sunpinyin
 
+# TeX Live
+sudo apt install -y texlive-full
+
 # Vim
 sudo apt install -y vim
 
