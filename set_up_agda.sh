@@ -5,7 +5,9 @@ sudo apt-get install zlib1g-dev libncurses5-dev
 cabal update
 cabal install Agda
 
-cd ~/GitProjects
+cd ~
+mkdir GitProjects
+cd GitProjects
 
 # https://github.com/agda/agda-stdlib/blob/master/notes/installation-guide.md
 gh repo clone agda/agda-stdlib
@@ -20,4 +22,4 @@ echo "~/GitProjects/agda-stdlib/standard-library.agda-lib\n~/GitProjects/cubical
 echo "standard-library\ncubical\n" > defaults
 cd ..
 
-echo "Remember to git checkout the library versions corresponding the Agda version. See https://github.com/agda/agda-stdlib/blob/master/notes/installation-guide.md and https://github.com/agda/cubical/tree/master#compiling-using-and-installing."
+echo "Remember to git checkout the library versions corresponding to the Agda version. See https://github.com/agda/agda-stdlib/blob/master/notes/installation-guide.md and https://github.com/agda/cubical/tree/master#compiling-using-and-installing."
