@@ -10,10 +10,10 @@ mkdir GitProjects
 cd GitProjects
 
 # https://github.com/agda/agda-stdlib/blob/master/notes/installation-guide.md
-gh repo clone agda/agda-stdlib
+git clone https://github.com/agda/agda-stdlib
 
 # https://github.com/agda/cubical/blob/master/INSTALL.md
-gh repo clone agda/cubical
+git clone https://github.com/agda/cubical.git
 
 cd ~
 mkdir .agda
