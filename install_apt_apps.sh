@@ -26,3 +26,6 @@ sudo dpkg --add-architecture i386
 wget -O - https://dl.winehq.org/wine-builds/winehq.key | sudo apt-key add -
 sudo add-apt-repository -y 'deb https://dl.winehq.org/wine-builds/ubuntu/ focal main'
 sudo apt install -y --install-recommends winehq-stable
+
+# GitHub CLI
+sudo apt install -y gh
